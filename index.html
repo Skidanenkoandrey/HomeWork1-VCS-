@@ -20,11 +20,90 @@
             вами коммитов.</p>
     </div>
     <div class="cheat-sheet__item">
-        <p class="cheat-sheet__command">git config --global user.email "blabal@bla"</p>
+        <p class="cheat-sheet__command">$ git config --global user.email "blabal@bla"</p>
         <p class="cheat-sheet__description">Устанавливает адрес электронной почты, который будет отображаться в
             информации о выполняемых вами коммитах.</p>
     </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git init</p>
+        <p class="cheat-sheet__description">Создает(инициализирует) репозиторий.</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git status</p>
+        <p class="cheat-sheet__description">Показывает состояние файлов (состояние: файлы изменены, состояние: файлы
+            ждут коммита(сохраниния), состояние: готовы для отправления на удаленный репозиторий.)</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git add</p>
+        <p class="cheat-sheet__description">Индексирует файл для последующего коммита</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git commit</p>
+        <p class="cheat-sheet__description">Сохраняет проиндексированные изменения</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git log</p>
+        <p class="cheat-sheet__description">Показывает историю коммитов</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git checkout</p>
+        <p class="cheat-sheet__description">Переключает на выбранную ветку и стягивает в рабочую ветку последние
+            обновления</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git branch</p>
+        <p class="cheat-sheet__description">Перечисляет все доступные ветки, так же можно удалять их и добавлять
+            новые.</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git push</p>
+        <p class="cheat-sheet__description">Загружает все измененные и созданные файлы из локального репозитория в
+            удаленный репозиторий.</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git pull</p>
+        <p class="cheat-sheet__description">Стягивает файлы из удаленного репозитория в локальный. fetch(обновление) +
+            merge(слияние)</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git merge</p>
+        <p class="cheat-sheet__description">Происходит слияние двух или нескольких веток в текущую.</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git clone</p>
+        <p class="cheat-sheet__description">Клонирует репозиторий вместе со всей его историей изменений.</p>
+    </div>
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git revert</p>
+        <p class="cheat-sheet__description">Отмена коммита или удаление путем перезаписи новым коммитом, но при этом
+            сохраняет историю записи предыдущего.</p>
+    </div>
+
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git reset</p>
+        <p class="cheat-sheet__description">Отмена изменений</p>
+    </div>
+
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git rebase</p>
+        <p class="cheat-sheet__description">Не очень понял(((</p>
+    </div>
+
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git cherry-pick</p>
+        <p class="cheat-sheet__description">Позволяет вытащить один коммит из другой ветки и вставить его в текущую ветку.</p>
+    </div>
+
+    <div class="cheat-sheet__item">
+        <p class="cheat-sheet__command">$ git stash</p>
+        <p class="cheat-sheet__description">Своего рода черниковик. Сохраняет изменения в отдельном хранилище если нам
+            нужно переключиться на другую задачу, при этом не вносить изменения в ветку.</p>
+    </div>
 </section>
+<div class="container">
+    <p><span>.gitignore</span> - файл куда мы добавляем исключения, которые не хотим заливать на удаленный репозиторий.
+    </p>
+</div>
 
 </body>
 </html>
